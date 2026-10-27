@@ -1,0 +1,23 @@
+{
+  "name": "bank-ledger-app",
+  "version": "1.0.0",
+  "description": "Full-stack ACID-compliant banking ledger, pagination, and money transfer application",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend test",
+    "test:api": "npx tsx --prefix backend backend/src/test-api.ts",
+    "test:transfers": "npx tsx --prefix backend backend/src/test-transfers.ts"
+  },
+  "keywords": [
+    "banking",
+    "ledger",
+    "acid",
+    "express",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
