@@ -108,6 +108,9 @@ npm test
 
 ---
 
+<img width="1920" height="1080" alt="Screenshot 2026-10-27 114251" src="https://github.com/user-attachments/assets/19571797-a206-48aa-9cdb-cd26ec170690" />
+
+
 ## 📁 Project Structure
 
 ```text
